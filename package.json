@@ -82,5 +82,8 @@
     "report:lcov": "nyc report --reporter lcov",
     "lint": "tslint -p ."
   },
-  "types": "dist/esm/index.d.ts"
+  "types": "dist/esm/index.d.ts",
+  "directories": {
+    "test": "test"
+  }
 }
